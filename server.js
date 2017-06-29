@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/newsdb");
+mongoose.connect("mongodb://heroku_hgm6bx5f:3kalt71n2le60vsf2ms0iq1n58@ds143132.mlab.com:43132/heroku_hgm6bx5f");
 var db = mongoose.connection;
 
 
